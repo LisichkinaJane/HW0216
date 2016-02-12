@@ -1,0 +1,30 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+.table{
+    margin: 100px auto;
+    background: #f8edac;
+    border: 1px solid #292e25;
+}
+.table-row{
+    border: 1px solid #292e25;
+    transition: background 0.5s ease-in;
+}
+.table-row:hover{
+    background: white;
+}
+.table-col{
+    height: 50px;
+    width: 100px;
+}
+.main {
+    position: relative;
+    z-index: 2;
+    border-top: 1px solid #e6e6e6;
+}
+
